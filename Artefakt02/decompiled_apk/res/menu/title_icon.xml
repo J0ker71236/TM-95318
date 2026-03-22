@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/stat_happy" android:id="@id/happy" android:title="Happy" />
+    <item android:icon="@drawable/stat_neutral" android:id="@id/neutral" android:title="Neutral" />
+    <item android:icon="@drawable/stat_sad" android:id="@id/sad" android:title="Sad" />
+</menu>

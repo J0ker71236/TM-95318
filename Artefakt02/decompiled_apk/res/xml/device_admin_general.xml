@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/enable_admin">
+        <CheckBoxPreference android:title="@string/enable_admin" android:key="key_enable_admin" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_capabilities_category">
+        <CheckBoxPreference android:title="@string/disable_camera" android:key="key_disable_camera" />
+        <CheckBoxPreference android:title="@string/disable_keyguard_widgets" android:key="key_disable_keyguard_widgets" />
+        <CheckBoxPreference android:title="@string/disable_keyguard_secure_camera" android:key="key_disable_keyguard_secure_camera" />
+    </PreferenceCategory>
+</PreferenceScreen>

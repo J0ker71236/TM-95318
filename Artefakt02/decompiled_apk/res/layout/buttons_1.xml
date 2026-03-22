@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/button_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buttons_1_normal" android:contentDescription="@string/buttons_1_normal" />
+        <Button android:id="@id/button_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buttons_1_small" android:contentDescription="@string/buttons_1_small" style="?android:buttonStyleSmall" />
+        <ToggleButton android:id="@id/button_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buttons_1_toggle" android:contentDescription="@string/buttons_1_toggle" />
+    </LinearLayout>
+</ScrollView>

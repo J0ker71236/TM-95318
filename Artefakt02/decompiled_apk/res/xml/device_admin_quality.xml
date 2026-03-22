@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/password_controls_category">
+        <PreferenceScreen android:title="@string/set_password_user" android:key="key_set_password" />
+        <EditTextPreference android:title="@string/set_password_api" android:key="key_reset_password" android:dialogTitle="@string/set_password_api_dialog" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/password_quality_category" android:key="key_category_quality">
+        <ListPreference android:entries="@array/password_qualities" android:title="@string/password_quality" android:key="key_quality" android:dialogTitle="@string/password_quality" />
+        <EditTextPreference android:title="@string/password_minimum_length" android:key="key_minimum_length" android:dialogTitle="@string/password_minimum_length" android:inputType="number" />
+        <EditTextPreference android:title="@string/password_minimum_letters" android:key="key_minimum_letters" android:dialogTitle="@string/password_minimum_letters" />
+        <EditTextPreference android:title="@string/password_minimum_numeric" android:key="key_minimum_numeric" android:dialogTitle="@string/password_minimum_numeric" android:inputType="number" />
+        <EditTextPreference android:title="@string/password_minimum_lower_case" android:key="key_minimum_lower_case" android:dialogTitle="@string/password_minimum_lower_case" android:inputType="number" />
+        <EditTextPreference android:title="@string/password_minimum_upper_case" android:key="key_minimum_upper_case" android:dialogTitle="@string/password_minimum_upper_case" android:inputType="number" />
+        <EditTextPreference android:title="@string/password_minimum_symbols" android:key="key_minimum_symbols" android:dialogTitle="@string/password_minimum_symbols" android:inputType="number" />
+        <EditTextPreference android:title="@string/password_minimum_non_letter" android:key="key_minimum_non_letter" android:dialogTitle="@string/password_minimum_non_letter" android:inputType="number" />
+    </PreferenceCategory>
+</PreferenceScreen>

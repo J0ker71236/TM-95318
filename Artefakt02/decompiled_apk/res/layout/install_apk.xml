@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Demonstrates using the INSTALL_PACKAGE Intent to install an application." android:layout_weight="0.0" android:contentDescription="Demonstrates using the INSTALL_PACKAGE Intent to install an application." />
+    <Button android:id="@id/unknown_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unknown Source" android:contentDescription="Unknown Source" />
+    <Button android:id="@id/my_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="My Source" android:contentDescription="My Source" />
+    <Button android:id="@id/replace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Replace" android:contentDescription="Replace" />
+    <Button android:id="@id/uninstall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Uninstall" android:contentDescription="Uninstall" />
+    <Button android:id="@id/uninstall_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Uninstall w/Result" android:contentDescription="Uninstall w/Result" />
+</LinearLayout>

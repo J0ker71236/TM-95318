@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/copy_styled_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_text" android:onClick="pasteStyledText" android:contentDescription="@string/copy_text" />
+            <TextView android:textStyle="normal" android:id="@id/styled_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/copy_plain_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_text" android:onClick="pastePlainText" android:contentDescription="@string/copy_text" />
+            <TextView android:textStyle="normal" android:id="@id/plain_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/copy_html_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_text" android:onClick="pasteHtmlText" android:contentDescription="@string/copy_text" />
+            <TextView android:textStyle="normal" android:id="@id/html_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/copy_intent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_intent" android:onClick="pasteIntent" android:contentDescription="@string/copy_intent" />
+            <Button android:id="@id/copy_uri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_uri" android:onClick="pasteUri" android:contentDescription="@string/copy_uri" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Data type: " android:contentDescription="Data type: " />
+            <Spinner android:id="@id/clip_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/clip_type_prompt" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MIME types: " android:contentDescription="MIME types: " />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/clip_mime_types" android:background="#ff303030" android:padding="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="Data content:" android:contentDescription="Data content:" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/clip_text" android:background="#ff303030" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

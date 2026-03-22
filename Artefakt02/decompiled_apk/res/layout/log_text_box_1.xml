@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_text_box_1_add_text" android:contentDescription="@string/log_text_box_1_add_text" />
+    <io.appium.android.apis.text.LogTextBox android:id="@id/text" android:background="@drawable/box" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_text_box_1_do_nothing_text" android:contentDescription="@string/log_text_box_1_do_nothing_text" />
+</LinearLayout>

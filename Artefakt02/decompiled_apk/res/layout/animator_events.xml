@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/startButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Play" android:contentDescription="Play" />
+        <Button android:id="@id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:contentDescription="Cancel" />
+        <Button android:id="@id/endButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End" android:contentDescription="End" />
+        <CheckBox android:id="@id/endCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End Immediately" android:contentDescription="End Immediately" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sequencer Events:   " android:contentDescription="Sequencer Events:   " />
+        <TextView android:id="@id/startText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start   " android:contentDescription="Start   " />
+        <TextView android:id="@id/repeatText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Repeat   " android:contentDescription="Repeat   " />
+        <TextView android:id="@id/cancelText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel   " android:contentDescription="Cancel   " />
+        <TextView android:id="@id/endText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End" android:contentDescription="End" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Animator Events:   " android:contentDescription="Animator Events:   " />
+        <TextView android:id="@id/startTextAnimator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start   " android:contentDescription="Start   " />
+        <TextView android:id="@id/repeatTextAnimator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Repeat   " android:contentDescription="Repeat   " />
+        <TextView android:id="@id/cancelTextAnimator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel   " android:contentDescription="Cancel   " />
+        <TextView android:id="@id/endTextAnimator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End" android:contentDescription="End" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:padding="3.0dip" android:layout_column="1" android:text="@string/table_layout_7_open" android:contentDescription="@string/table_layout_7_open" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_7_open_shortcut" android:contentDescription="@string/table_layout_7_open_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:background="#ff00ff00" android:padding="3.0dip" android:layout_column="1" android:text="@string/table_layout_7_save" android:contentDescription="@string/table_layout_7_save" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_7_save_shortcut" android:contentDescription="@string/table_layout_7_save_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_gravity="center_horizontal" android:background="#ffff0000" android:padding="3.0dip" android:layout_column="1" android:text="@string/table_layout_7_save_as" android:contentDescription="@string/table_layout_7_save_as" />
+        <TextView android:gravity="right" android:background="#ffff00ff" android:padding="3.0dip" android:text="@string/table_layout_7_save_as_shortcut" android:contentDescription="@string/table_layout_7_save_as_shortcut" />
+    </TableRow>
+    <View android:background="#ff909090" android:layout_height="2.0dip" />
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_7_x" android:contentDescription="@string/table_layout_7_x" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_7_import" android:contentDescription="@string/table_layout_7_import" />
+    </TableRow>
+    <TableRow>
+        <View android:background="#ff909090" android:layout_height="68.0dip" />
+        <TextView android:layout_gravity="bottom|center|right" android:background="#ffff0000" android:padding="3.0dip" android:text="@string/table_layout_7_export" android:contentDescription="@string/table_layout_7_export" />
+        <TextView android:gravity="right" android:background="#ff00ffff" android:padding="3.0dip" android:text="@string/table_layout_7_export_shortcut" android:contentDescription="@string/table_layout_7_export_shortcut" />
+    </TableRow>
+    <View android:background="#ff909090" android:layout_height="2.0dip" />
+</TableLayout>

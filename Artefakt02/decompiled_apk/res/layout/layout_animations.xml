@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/addNewButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Button" android:contentDescription="Add Button" />
+        <CheckBox android:id="@id/customAnimCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Custom Animations" android:contentDescription="Custom Animations" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/appearingCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="In" android:contentDescription="In" />
+        <CheckBox android:id="@id/disappearingCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Out" android:contentDescription="Out" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/changingAppearingCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Changing-In" android:contentDescription="Changing-In" />
+        <CheckBox android:id="@id/changingDisappearingCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Changing-Out" android:contentDescription="Changing-Out" />
+    </LinearLayout>
+</LinearLayout>

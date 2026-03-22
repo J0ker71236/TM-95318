@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_star" android:contentDescription="@string/table_layout_1_star" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_open" android:contentDescription="@string/table_layout_1_open" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_open_shortcut" android:contentDescription="@string/table_layout_1_open_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_triple_star" android:contentDescription="@string/table_layout_1_triple_star" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_save" android:contentDescription="@string/table_layout_1_save" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_save_shortcut" android:contentDescription="@string/table_layout_1_save_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_star" android:contentDescription="@string/table_layout_1_star" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_quit" android:contentDescription="@string/table_layout_1_quit" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_1_quit_shortcut" android:contentDescription="@string/table_layout_1_quit_shortcut" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/inline_preferences">
+        <CheckBoxPreference android:title="@string/title_checkbox_preference" android:key="checkbox_preference" android:summary="@string/summary_checkbox_preference" />
+        <SwitchPreference android:title="@string/title_switch_preference" android:key="checkbox_preference" android:summary="@string/summary_switch_preference" />
+        <SwitchPreference android:title="@string/title_switch_preference" android:key="checkbox_preference" android:summary="@string/summary_switch_preference_yes_no" android:defaultValue="true" android:switchTextOn="YES" android:switchTextOff="NO" />
+    </PreferenceCategory>
+</PreferenceScreen>

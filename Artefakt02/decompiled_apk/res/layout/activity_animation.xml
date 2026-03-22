@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/activity_animation_msg" android:layout_weight="0.0" android:contentDescription="@string/activity_animation_msg" />
+    <Button android:id="@id/fade_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_animation_fade" android:contentDescription="@string/activity_animation_fade">
+        <requestFocus />
+    </Button>
+    <Button android:id="@id/zoom_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_animation_zoom" android:contentDescription="@string/activity_animation_zoom" />
+    <Button android:id="@id/modern_fade_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_modern_animation_fade" android:contentDescription="@string/activity_modern_animation_fade">
+        <requestFocus />
+    </Button>
+    <Button android:id="@id/modern_zoom_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_modern_animation_zoom" android:contentDescription="@string/activity_modern_animation_zoom" />
+    <Button android:id="@id/scale_up_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_scale_up_animation" android:contentDescription="@string/activity_scale_up_animation" />
+    <Button android:id="@id/zoom_thumbnail_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_zoom_thumbnail_animation" android:contentDescription="@string/activity_zoom_thumbnail_animation" />
+</LinearLayout>

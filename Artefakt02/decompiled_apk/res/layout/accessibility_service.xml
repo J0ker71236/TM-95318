@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_service_instructions" android:contentDescription="@string/accessibility_service_instructions" />
+    <ImageButton android:layout_gravity="center" android:id="@id/button" android:background="@drawable/ic_launcher_settings" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="50.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+</LinearLayout>

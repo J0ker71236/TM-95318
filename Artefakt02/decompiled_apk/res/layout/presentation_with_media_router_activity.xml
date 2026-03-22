@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/presentation_with_media_router_activity_text" android:layout_weight="0.0" android:contentDescription="@string/presentation_with_media_router_activity_text" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    <android.opengl.GLSurfaceView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

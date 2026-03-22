@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/title_next_screen_toggle_preference" android:key="next_screen_checkbox_preference" android:summary="@string/summary_next_screen_toggle_preference" />
+</PreferenceScreen>

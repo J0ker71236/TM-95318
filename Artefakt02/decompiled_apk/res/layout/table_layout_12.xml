@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:background="#ffff0000" android:padding="3.0dip" android:text="@string/table_layout_12_a" android:contentDescription="@string/table_layout_12_a" />
+        <TextView android:background="#ff00ff00" android:padding="3.0dip" android:text="@string/table_layout_12_b" android:contentDescription="@string/table_layout_12_b" />
+        <TextView android:background="#ff0000ff" android:padding="3.0dip" android:text="@string/table_layout_12_c" android:contentDescription="@string/table_layout_12_c" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="center_horizontal" android:background="#ff0000ff" android:padding="3.0dip" android:layout_span="2" android:text="@string/table_layout_12_d" android:contentDescription="@string/table_layout_12_d" />
+        <TextView android:background="#ff00ff00" android:padding="3.0dip" android:text="@string/table_layout_12_e" android:contentDescription="@string/table_layout_12_e" />
+    </TableRow>
+    <TableRow>
+        <TextView android:background="#ffff00ff" android:padding="3.0dip" android:text="@string/table_layout_12_f" android:contentDescription="@string/table_layout_12_f" />
+        <TextView android:background="#ff00ff00" android:padding="3.0dip" android:text="@string/table_layout_12_g" android:contentDescription="@string/table_layout_12_g" />
+        <TextView android:background="#ffff0000" android:padding="3.0dip" android:text="@string/table_layout_12_h" android:contentDescription="@string/table_layout_12_h" />
+    </TableRow>
+    <TableRow>
+        <TextView android:background="#ff00ff00" android:padding="3.0dip" android:text="@string/table_layout_12_a" android:contentDescription="@string/table_layout_12_a" />
+        <TextView android:gravity="center_horizontal" android:background="#ff0000ff" android:padding="3.0dip" android:layout_span="2" android:text="@string/table_layout_12_b" android:contentDescription="@string/table_layout_12_b" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="center_horizontal" android:background="#ffc0c0c0" android:padding="3.0dip" android:layout_span="3" android:text="@string/table_layout_12_g" android:contentDescription="@string/table_layout_12_g" />
+    </TableRow>
+</TableLayout>

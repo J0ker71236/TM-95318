@@ -1,0 +1,2 @@
+sdkVersion:'17'
+targetSdkVersion:'28'

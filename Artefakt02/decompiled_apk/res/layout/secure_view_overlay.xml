@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.appium.android.apis.view.SecureViewOverlay android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/secure_view_overlay_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_view_overlay_description" android:contentDescription="@string/secure_view_overlay_description" />
+    <Button android:textColor="#ff338833" android:id="@id/secure_view_overlay_button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_view_overlay_button1" android:contentDescription="@string/secure_view_overlay_button1" />
+    <Button android:textColor="#ff338833" android:id="@id/secure_view_overlay_button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_view_overlay_button2" android:contentDescription="@string/secure_view_overlay_button2" />
+    <Button android:textColor="#ff338833" android:id="@id/secure_view_overlay_button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_view_overlay_button3" android:contentDescription="@string/secure_view_overlay_button3" />
+</io.appium.android.apis.view.SecureViewOverlay>

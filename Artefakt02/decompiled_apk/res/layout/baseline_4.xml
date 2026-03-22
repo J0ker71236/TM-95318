@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/baseline_4_label" android:contentDescription="@string/baseline_4_label" />
+    <Button android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/baseline_4_button" android:contentDescription="@string/baseline_4_button" />
+    <TextView android:textSize="20.0sp" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/baseline_4_bigger" android:contentDescription="@string/baseline_4_bigger" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/baseline_4_label_2" android:contentDescription="@string/baseline_4_label_2" />
+    <TextView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/baseline_4_label_3" android:contentDescription="@string/baseline_4_label_3" />
+</LinearLayout>

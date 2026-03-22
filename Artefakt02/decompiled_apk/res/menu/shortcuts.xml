@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/invisible_item" android:visible="false" android:title="Invisible item" android:alphabeticShortcut="i" />
+    <item android:id="@id/a_item" android:title="Alvin" android:alphabeticShortcut="a" />
+    <item android:id="@id/b_item" android:title="Bart" android:alphabeticShortcut="b" />
+    <item android:id="@id/c_item" android:title="Chris" android:alphabeticShortcut="c" />
+    <item android:id="@id/d_item" android:title="David" android:alphabeticShortcut="d" />
+    <item android:id="@id/e_item" android:title="Eric" android:alphabeticShortcut="e" />
+    <item android:id="@id/f_item" android:title="Frank" android:alphabeticShortcut="f" />
+    <item android:id="@id/g_item" android:title="Gary" android:alphabeticShortcut="g" />
+    <item android:id="@id/h_item" android:title="Henry" android:alphabeticShortcut="h" />
+    <item android:id="@id/excl_item" android:title="Exclamation" android:alphabeticShortcut="!" />
+</menu>

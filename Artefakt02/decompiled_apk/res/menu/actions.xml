@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/action_search" android:title="@string/action_bar_search" android:showAsAction="ifRoom" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@id/action_add" android:title="@string/action_bar_add" />
+    <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/action_edit" android:title="@string/action_bar_edit" android:showAsAction="always" />
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/action_share" android:title="@string/action_bar_share" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@id/action_sort" android:title="@string/action_bar_sort" android:showAsAction="ifRoom">
+        <menu>
+            <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@id/action_sort_size" android:title="@string/action_bar_sort_size" android:onClick="onSort" />
+            <item android:icon="@android:drawable/ic_menu_sort_alphabetically" android:id="@id/action_sort_alpha" android:title="@string/action_bar_sort_alpha" android:onClick="onSort" />
+        </menu>
+    </item>
+</menu>

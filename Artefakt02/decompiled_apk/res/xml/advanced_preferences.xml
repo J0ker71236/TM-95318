@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <io.appium.android.apis.preference.MyPreference android:title="@string/title_my_preference" android:key="my_preference" android:summary="@string/summary_my_preference" android:defaultValue="100" />
+    <CheckBoxPreference android:title="@string/title_advanced_toggle_preference" android:key="advanced_checkbox_preference" android:summaryOn="@string/summary_on_advanced_toggle_preference" android:summaryOff="@string/summary_off_advanced_toggle_preference" />
+</PreferenceScreen>

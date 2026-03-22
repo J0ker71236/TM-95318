@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_retain_instance_msg" android:contentDescription="@string/fragment_retain_instance_msg" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_horizontal" android:padding="6.0dip" android:layout_width="200.0dip" android:layout_height="wrap_content" android:max="500" style="?android:progressBarStyleHorizontal" />
+    <Button android:layout_gravity="center" android:id="@id/restart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restart" android:contentDescription="@string/restart">
+        <requestFocus />
+    </Button>
+</LinearLayout>

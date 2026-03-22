@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/showIndeterminate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progressbar_3_indeterminate" android:contentDescription="@string/progressbar_3_indeterminate" />
+    <Button android:id="@id/showIndeterminateNoTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progressbar_3_indeterminate_no_title" android:contentDescription="@string/progressbar_3_indeterminate_no_title" />
+</LinearLayout>

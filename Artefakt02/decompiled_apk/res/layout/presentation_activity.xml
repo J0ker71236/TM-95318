@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/presentation_activity_text" android:layout_weight="0.0" android:contentDescription="@string/presentation_activity_text" />
+    <CheckBox android:id="@id/show_all_displays" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/presentation_show_all_displays" android:layout_weight="0.0" android:contentDescription="@string/presentation_show_all_displays" />
+    <ListView android:id="@id/display_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

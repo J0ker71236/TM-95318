@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_large_normal" android:contentDescription="@string/image_view_large_normal" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sample_1" android:adjustViewBounds="true" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_large_at_most" android:contentDescription="@string/image_view_large_at_most" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sample_1" android:adjustViewBounds="true" android:maxWidth="50.0dip" android:maxHeight="50.0dip" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_large_at_most_padded" android:contentDescription="@string/image_view_large_at_most_padded" />
+        <ImageView android:background="#66ffffff" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sample_1" android:adjustViewBounds="true" android:maxWidth="70.0dip" android:maxHeight="70.0dip" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_large_exactly_padded" android:contentDescription="@string/image_view_large_exactly_padded" />
+        <ImageView android:background="#66ffffff" android:padding="10.0dip" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/sample_1" android:scaleType="centerInside" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_small_normal" android:contentDescription="@string/image_view_small_normal" />
+        <ImageView android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_happy" android:adjustViewBounds="true" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_small_at_most" android:contentDescription="@string/image_view_small_at_most" />
+        <ImageView android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_happy" android:adjustViewBounds="true" android:maxWidth="50.0dip" android:maxHeight="50.0dip" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_small_at_most_padded" android:contentDescription="@string/image_view_small_at_most_padded" />
+        <ImageView android:background="#ffffffff" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_happy" android:adjustViewBounds="true" android:maxWidth="70.0dip" android:maxHeight="70.0dip" />
+        <TextView android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_view_small_exactly_padded" android:contentDescription="@string/image_view_small_exactly_padded" />
+        <ImageView android:background="#ffffffff" android:padding="10.0dip" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/stat_happy" android:scaleType="centerInside" />
+    </LinearLayout>
+</ScrollView>

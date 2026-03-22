@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="resources_layout_reference">@layout/resources_layout_reference_tablet</item>
+</resources>

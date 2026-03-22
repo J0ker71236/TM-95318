@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Chronometer android:id="@id/chronometer" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format="@string/chronometer_initial_format" android:layout_weight="0.0" />
+    <Button android:id="@id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chronometer_start" android:contentDescription="@string/chronometer_start">
+        <requestFocus />
+    </Button>
+    <Button android:id="@id/stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chronometer_stop" android:contentDescription="@string/chronometer_stop" />
+    <Button android:id="@id/reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chronometer_reset" android:contentDescription="@string/chronometer_reset" />
+    <Button android:id="@id/set_format" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chronometer_set_format" android:contentDescription="@string/chronometer_set_format" />
+    <Button android:id="@id/clear_format" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chronometer_clear_format" android:contentDescription="@string/chronometer_clear_format" />
+</LinearLayout>

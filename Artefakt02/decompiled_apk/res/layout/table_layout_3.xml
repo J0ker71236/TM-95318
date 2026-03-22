@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:shrinkColumns="2, 3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_star" android:contentDescription="@string/table_layout_3_star" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_open" android:contentDescription="@string/table_layout_3_open" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_open_shortcut" android:contentDescription="@string/table_layout_3_open_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_triple_star" android:contentDescription="@string/table_layout_3_triple_star" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_save" android:contentDescription="@string/table_layout_3_save" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_save_shortcut" android:contentDescription="@string/table_layout_3_save_shortcut" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_too_long" android:contentDescription="@string/table_layout_3_too_long" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_star" android:contentDescription="@string/table_layout_3_star" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_quit" android:contentDescription="@string/table_layout_3_quit" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_3_quit_shortcut" android:contentDescription="@string/table_layout_3_quit_shortcut" />
+    </TableRow>
+</TableLayout>

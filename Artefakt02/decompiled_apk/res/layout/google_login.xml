@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/googlelogin_login" android:contentDescription="@string/googlelogin_login" />
+    <Button android:id="@id/bad_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/googlelogin_bad_login" android:contentDescription="@string/googlelogin_bad_login" />
+    <Button android:id="@id/clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/googlelogin_clear" android:contentDescription="@string/googlelogin_clear" />
+    <TextView android:id="@id/username_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/googlelogin_user" android:contentDescription="@string/googlelogin_user" />
+    <TextView android:id="@id/username" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/google_login_username_text" android:contentDescription="@string/google_login_username_text" />
+</LinearLayout>

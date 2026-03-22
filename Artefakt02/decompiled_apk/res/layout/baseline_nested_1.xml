@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/baseline_nested_1_label" android:contentDescription="@string/baseline_nested_1_label" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAlignedChildIndex="1">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_up_float" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/baseline_nested_1_label" android:contentDescription="@string/baseline_nested_1_label" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_down_float" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAlignedChildIndex="2">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_up_float" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_up_float" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/baseline_nested_1_label" android:contentDescription="@string/baseline_nested_1_label" />
+    </LinearLayout>
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/baseline_nested_1_label" android:contentDescription="@string/baseline_nested_1_label" />
+</LinearLayout>

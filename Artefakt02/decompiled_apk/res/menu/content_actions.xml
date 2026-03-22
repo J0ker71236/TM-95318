@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/action_search" android:title="@string/action_bar_search" android:showAsAction="always" android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@id/menu_item_share_action_provider_action_bar" android:title="@string/action_bar_share_with" android:showAsAction="always" android:actionProviderClass="android.widget.ShareActionProvider" />
+    <group android:id="@id/show_tabs_group" android:checkableBehavior="single">
+        <item android:id="@id/show_tabs" android:title="Show Tabs" android:showAsAction="never" />
+        <item android:id="@id/hide_tabs" android:checked="true" android:title="Hide Tabs" android:showAsAction="never" />
+    </group>
+    <group android:id="@id/stable_layout_group" android:checkableBehavior="all">
+        <item android:id="@id/stable_layout" android:checked="true" android:title="Stable Layout" android:showAsAction="never" />
+    </group>
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/action_share" android:title="@string/action_bar_share" android:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@id/action_sort" android:title="@string/action_bar_sort" android:showAsAction="ifRoom">
+        <menu>
+            <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@id/action_sort_size" android:title="@string/action_bar_sort_size" android:onClick="onSort" />
+            <item android:icon="@android:drawable/ic_menu_sort_alphabetically" android:id="@id/action_sort_alpha" android:title="@string/action_bar_sort_alpha" android:onClick="onSort" />
+        </menu>
+    </item>
+</menu>

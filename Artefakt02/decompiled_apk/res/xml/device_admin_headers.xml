@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/header_general" android:fragment="io.appium.android.apis.app.DeviceAdminSample$GeneralFragment" />
+    <header android:title="@string/header_quality" android:fragment="io.appium.android.apis.app.DeviceAdminSample$QualityFragment" />
+    <header android:title="@string/header_expiration" android:fragment="io.appium.android.apis.app.DeviceAdminSample$ExpirationFragment" />
+    <header android:title="@string/header_lock_wipe" android:fragment="io.appium.android.apis.app.DeviceAdminSample$LockWipeFragment" />
+    <header android:title="@string/header_encryption" android:fragment="io.appium.android.apis.app.DeviceAdminSample$EncryptionFragment" />
+</preference-headers>

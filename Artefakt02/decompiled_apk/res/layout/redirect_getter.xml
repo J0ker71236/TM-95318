@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/redirect_getter" android:layout_weight="0.0" android:contentDescription="@string/redirect_getter" />
+    <EditText android:id="@id/text" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <requestFocus />
+    </EditText>
+    <Button android:id="@id/apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apply" android:contentDescription="@string/apply" />
+</LinearLayout>

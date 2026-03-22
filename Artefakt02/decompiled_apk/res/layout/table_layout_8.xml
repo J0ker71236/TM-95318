@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/menu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:padding="3.0dip" android:layout_column="1" android:text="@string/table_layout_8_open" android:contentDescription="@string/table_layout_8_open" />
+            <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_8_open_shortcut" android:contentDescription="@string/table_layout_8_open_shortcut" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3.0dip" android:layout_column="1" android:text="@string/table_layout_8_save" android:contentDescription="@string/table_layout_8_save" />
+            <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_8_save_shortcut" android:contentDescription="@string/table_layout_8_save_shortcut" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3.0dip" android:layout_column="1" android:text="@string/table_layout_8_save_as" android:contentDescription="@string/table_layout_8_save_as" />
+            <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_8_save_as_shortcut" android:contentDescription="@string/table_layout_8_save_as_shortcut" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3.0dip" android:text="@string/table_layout_8_x" android:contentDescription="@string/table_layout_8_x" />
+            <TextView android:padding="3.0dip" android:text="@string/table_layout_8_import" android:contentDescription="@string/table_layout_8_import" />
+        </TableRow>
+        <TableRow>
+            <TextView android:padding="3.0dip" android:text="@string/table_layout_8_x" android:contentDescription="@string/table_layout_8_x" />
+            <TextView android:padding="3.0dip" android:text="@string/table_layout_8_export" android:contentDescription="@string/table_layout_8_export" />
+            <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_8_export_shortcut" android:contentDescription="@string/table_layout_8_export_shortcut" />
+        </TableRow>
+    </TableLayout>
+    <Button android:id="@id/toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/table_layout_8_toggle_stretch" android:contentDescription="@string/table_layout_8_toggle_stretch" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0sp" android:id="@id/target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/animation_3_text" android:contentDescription="@string/animation_3_text" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/animation_2_instructions" android:contentDescription="@string/animation_2_instructions" />
+    <Spinner android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

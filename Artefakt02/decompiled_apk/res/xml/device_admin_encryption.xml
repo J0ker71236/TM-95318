@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/encryption_category" android:key="key_category_encryption">
+        <CheckBoxPreference android:title="@string/require_encryption" android:key="key_require_encryption" />
+        <PreferenceScreen android:title="@string/activate_encryption" android:key="key_activate_encryption" />
+    </PreferenceCategory>
+</PreferenceScreen>

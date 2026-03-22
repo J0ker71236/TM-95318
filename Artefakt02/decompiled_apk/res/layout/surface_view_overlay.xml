@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <android.opengl.GLSurfaceView android:id="@id/glsurfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hidecontainer" android:background="@drawable/translucent_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:layout_gravity="center" android:id="@id/hideme1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hide_me" android:contentDescription="@string/hide_me" />
+            <Button android:layout_gravity="center" android:id="@id/hideme2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hide_me" android:contentDescription="@string/hide_me" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/vis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visibility_1_vis" android:contentDescription="@string/visibility_1_vis" />
+        <Button android:id="@id/invis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visibility_1_invis" android:contentDescription="@string/visibility_1_invis" />
+        <Button android:id="@id/gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visibility_1_gone" android:contentDescription="@string/visibility_1_gone" />
+    </LinearLayout>
+</LinearLayout>

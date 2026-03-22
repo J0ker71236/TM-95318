@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_4_open" android:contentDescription="@string/table_layout_4_open" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_4_open_shortcut" android:contentDescription="@string/table_layout_4_open_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_4_save" android:contentDescription="@string/table_layout_4_save" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_4_save_shortcut" android:contentDescription="@string/table_layout_4_save_shortcut" />
+    </TableRow>
+</TableLayout>

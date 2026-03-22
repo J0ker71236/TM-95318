@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_menu_msg" android:contentDescription="@string/fragment_menu_msg" />
+    <CheckBox android:layout_gravity="center" android:id="@id/menu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/fragment1menu" android:contentDescription="@string/fragment1menu" />
+    <CheckBox android:layout_gravity="center" android:id="@id/menu2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/fragment2menu" android:contentDescription="@string/fragment2menu" />
+</LinearLayout>

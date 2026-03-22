@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/visible_item" android:title="Visible" android:alphabeticShortcut="a" />
+    <item android:id="@id/hidden_item" android:visible="false" android:title="Hidden" android:alphabeticShortcut="b" />
+    <group android:id="@id/hidden_group" android:visible="false">
+        <item android:id="@id/hidden_by_group" android:title="Hidden by group" android:alphabeticShortcut="c" />
+    </group>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <Button android:text="@string/table_layout_2_open" android:contentDescription="@string/table_layout_2_open" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_2_path_1" android:contentDescription="@string/table_layout_2_path_1" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="@string/table_layout_2_save_all" android:contentDescription="@string/table_layout_2_save_all" />
+    </TableRow>
+    <TableRow>
+        <Button android:visibility="invisible" android:text="@string/table_layout_2_save" android:contentDescription="@string/table_layout_2_save" />
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_2_path_2" android:contentDescription="@string/table_layout_2_path_2" />
+    </TableRow>
+</TableLayout>

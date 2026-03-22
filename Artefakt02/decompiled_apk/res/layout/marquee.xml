@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:ellipsize="marquee" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/marquee_default" android:singleLine="true" android:contentDescription="@string/marquee_default" />
+    <Button android:ellipsize="marquee" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/marquee_once" android:singleLine="true" android:marqueeRepeatLimit="1" android:contentDescription="@string/marquee_once" />
+    <Button android:ellipsize="marquee" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/marquee_forever" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:contentDescription="@string/marquee_forever" />
+</LinearLayout>

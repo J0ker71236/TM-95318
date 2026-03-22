@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:showDividers="middle">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:autoLink="all" android:id="@id/text1" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/link_text_auto" android:contentDescription="@string/link_text_auto" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/text2" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/link_text_manual" android:contentDescription="@string/link_text_manual" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/text3" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/text4" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

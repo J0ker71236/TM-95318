@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_5_open" android:contentDescription="@string/table_layout_5_open" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_5_open_shortcut" android:contentDescription="@string/table_layout_5_open_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_5_save" android:contentDescription="@string/table_layout_5_save" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_5_save_shortcut" android:contentDescription="@string/table_layout_5_save_shortcut" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_5_save_as" android:contentDescription="@string/table_layout_5_save_as" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_5_save_as_shortcut" android:contentDescription="@string/table_layout_5_save_as_shortcut" />
+    </TableRow>
+    <View android:background="#ff909090" android:layout_height="2.0dip" />
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_5_import" android:contentDescription="@string/table_layout_5_import" />
+    </TableRow>
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_5_export" android:contentDescription="@string/table_layout_5_export" />
+        <TextView android:gravity="right" android:padding="3.0dip" android:text="@string/table_layout_5_export_shortcut" android:contentDescription="@string/table_layout_5_export_shortcut" />
+    </TableRow>
+    <View android:background="#ff909090" android:layout_height="2.0dip" />
+    <TableRow>
+        <TextView android:padding="3.0dip" android:text="@string/table_layout_5_quit" android:contentDescription="@string/table_layout_5_quit" />
+    </TableRow>
+</TableLayout>

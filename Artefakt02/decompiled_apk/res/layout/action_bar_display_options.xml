@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/toggle_home_as_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_home_as_up" android:contentDescription="@string/toggle_home_as_up" />
+    <Button android:id="@id/toggle_show_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_show_home" android:contentDescription="@string/toggle_show_home" />
+    <Button android:id="@id/toggle_use_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_use_logo" android:contentDescription="@string/toggle_use_logo" />
+    <Button android:id="@id/toggle_show_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_show_title" android:contentDescription="@string/toggle_show_title" />
+    <Button android:id="@id/toggle_show_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_show_custom" android:contentDescription="@string/toggle_show_custom" />
+    <Button android:id="@id/toggle_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_navigation" android:contentDescription="@string/toggle_navigation" />
+    <Button android:id="@id/cycle_custom_gravity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cycle_custom_gravity" android:contentDescription="@string/cycle_custom_gravity" />
+</LinearLayout>

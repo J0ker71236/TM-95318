@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/password_controls_category">
+        <PreferenceScreen android:title="@string/set_password_user" android:key="key_set_password" />
+        <EditTextPreference android:title="@string/set_password_api" android:key="key_reset_password" android:dialogTitle="@string/set_password_api_dialog" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/password_expiration_category" android:key="key_category_expiration">
+        <EditTextPreference android:title="@string/password_history_depth" android:key="key_history" android:dialogTitle="@string/password_history_depth" android:inputType="number" />
+        <EditTextPreference android:title="@string/password_expiration_timeout" android:key="key_expiration_timeout" android:dialogTitle="@string/password_expiration_timeout" android:inputType="number" />
+        <PreferenceScreen android:title="@string/password_expiration_status" android:key="key_expiration_status" />
+    </PreferenceCategory>
+</PreferenceScreen>

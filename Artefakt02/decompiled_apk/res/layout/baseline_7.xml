@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/baseline_7_fat" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/baseline_7_fat" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/baseline_7_lean" android:layout_alignBaseline="@id/anchor" android:layout_alignParentRight="true" android:contentDescription="@string/baseline_7_lean" />
+</RelativeLayout>
