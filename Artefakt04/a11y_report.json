@@ -1,0 +1,10 @@
+[
+  {
+    "file": "text_fields.xml",
+    "full_path": "../Artefakt02/decompiled_apk/res/layout\\text_fields.xml",
+    "tag": "TextView",
+    "id": "edit1Text",
+    "text": "@string/edit_text_password",
+    "issue": "Brak atrybutu contentDescription"
+  }
+]

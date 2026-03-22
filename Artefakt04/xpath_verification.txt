@@ -1,0 +1,4 @@
+PROJEKT SELEKTORA:
+ID: badge
+TAG: QuickContactBadge
+STATUS: ZALICZONE

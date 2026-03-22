@@ -1,0 +1,1556 @@
+{
+  "total_views": 1699,
+  "dominant_class": "TextView",
+  "dominant_count": 543,
+  "cdi": 0.3196,
+  "verdict": "SAFE",
+  "message": "Class distribution is balanced. By.className is relatively low risk.",
+  "class_distribution": {
+    "TextView": 543,
+    "LinearLayout": 318,
+    "Button": 286,
+    "ImageView": 68,
+    "TableRow": 60,
+    "FrameLayout": 40,
+    "requestFocus": 39,
+    "EditText": 39,
+    "CheckBox": 32,
+    "ScrollView": 29,
+    "ListView": 16,
+    "View": 15,
+    "TableLayout": 14,
+    "RelativeLayout": 13,
+    "include": 12,
+    "SeekBar": 11,
+    "Spinner": 10,
+    "view": 9,
+    "Switch": 9,
+    "ImageButton": 8,
+    "RadioButton": 7,
+    "AutoCompleteTextView": 6,
+    "ProgressBar": 6,
+    "GridView": 6,
+    "merge": 5,
+    "TextClock": 5,
+    "android.widget.Space": 4,
+    "io.appium.android.apis.view.DraggableDot": 4,
+    "fragment": 4,
+    "android.opengl.GLSurfaceView": 4,
+    "RatingBar": 4,
+    "androidx.appcompat.view.menu.ListMenuItemView": 3,
+    "ToggleButton": 3,
+    "io.appium.android.apis.view.LabelView": 3,
+    "WebView": 3,
+    "TabHost": 3,
+    "TabWidget": 3,
+    "Gallery": 3,
+    "GridLayout": 3,
+    "androidx.appcompat.widget.ActionBarContextView": 2,
+    "androidx.appcompat.widget.FitWindowsLinearLayout": 2,
+    "androidx.appcompat.widget.ViewStubCompat": 2,
+    "Chronometer": 2,
+    "RadioGroup": 2,
+    "HorizontalScrollView": 2,
+    "io.appium.android.apis.text.LogTextBox": 2,
+    "ViewStub": 2,
+    "SearchView": 2,
+    "CheckedTextView": 2,
+    "androidx.appcompat.view.menu.ActionMenuItemView": 1,
+    "androidx.appcompat.widget.ActionMenuView": 1,
+    "androidx.appcompat.widget.ButtonBarLayout": 1,
+    "androidx.appcompat.widget.AlertDialogLayout": 1,
+    "androidx.core.widget.NestedScrollView": 1,
+    "androidx.appcompat.widget.DialogTitle": 1,
+    "Space": 1,
+    "androidx.appcompat.view.menu.ExpandedMenuView": 1,
+    "androidx.appcompat.widget.ContentFrameLayout": 1,
+    "androidx.appcompat.widget.FitWindowsFrameLayout": 1,
+    "androidx.appcompat.widget.ActionBarOverlayLayout": 1,
+    "androidx.appcompat.widget.ActionBarContainer": 1,
+    "androidx.appcompat.widget.Toolbar": 1,
+    "ViewFlipper": 1,
+    "MultiAutoCompleteTextView": 1,
+    "NumberPicker": 1,
+    "TimePicker": 1,
+    "io.appium.android.apis.view.GameView": 1,
+    "io.appium.android.apis.view.HoverInterceptorView": 1,
+    "ImageSwitcher": 1,
+    "com.google.android.maps.MapView": 1,
+    "SurfaceView": 1,
+    "DateTimeView": 1,
+    "QuickContactBadge": 1,
+    "io.appium.android.apis.view.SecureViewOverlay": 1,
+    "io.appium.android.apis.view.CheckableFrameLayout": 1,
+    "io.appium.android.apis.accessibility.TaskListView": 1,
+    "TextSwitcher": 1,
+    "VideoView": 1
+  },
+  "files": {
+    "../Artefakt02/decompiled_apk/res/layout\\abc_action_bar_title_item.xml": {
+      "LinearLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_action_bar_up_container.xml": {
+      "LinearLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_action_menu_item_layout.xml": {
+      "androidx.appcompat.view.menu.ActionMenuItemView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_action_menu_layout.xml": {
+      "androidx.appcompat.widget.ActionMenuView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_action_mode_bar.xml": {
+      "androidx.appcompat.widget.ActionBarContextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_action_mode_close_item_material.xml": {
+      "ImageView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_activity_chooser_view.xml": {
+      "view": 1,
+      "FrameLayout": 2,
+      "ImageView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_activity_chooser_view_list_item.xml": {
+      "LinearLayout": 2,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_alert_dialog_button_bar_material.xml": {
+      "ScrollView": 1,
+      "androidx.appcompat.widget.ButtonBarLayout": 1,
+      "Button": 3,
+      "android.widget.Space": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_alert_dialog_material.xml": {
+      "androidx.appcompat.widget.AlertDialogLayout": 1,
+      "include": 2,
+      "FrameLayout": 3,
+      "View": 2,
+      "androidx.core.widget.NestedScrollView": 1,
+      "LinearLayout": 1,
+      "android.widget.Space": 2,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_alert_dialog_title_material.xml": {
+      "LinearLayout": 2,
+      "ImageView": 1,
+      "androidx.appcompat.widget.DialogTitle": 1,
+      "android.widget.Space": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_cascading_menu_item_layout.xml": {
+      "androidx.appcompat.view.menu.ListMenuItemView": 1,
+      "ImageView": 2,
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Space": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_dialog_title_material.xml": {
+      "androidx.appcompat.widget.FitWindowsLinearLayout": 1,
+      "TextView": 1,
+      "include": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_expanded_menu_layout.xml": {
+      "androidx.appcompat.view.menu.ExpandedMenuView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_list_menu_item_checkbox.xml": {
+      "CheckBox": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_list_menu_item_icon.xml": {
+      "ImageView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_list_menu_item_layout.xml": {
+      "androidx.appcompat.view.menu.ListMenuItemView": 1,
+      "RelativeLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_list_menu_item_radio.xml": {
+      "RadioButton": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_popup_menu_header_item_layout.xml": {
+      "FrameLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_popup_menu_item_layout.xml": {
+      "androidx.appcompat.view.menu.ListMenuItemView": 1,
+      "ImageView": 2,
+      "LinearLayout": 1,
+      "RelativeLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_screen_content_include.xml": {
+      "merge": 1,
+      "androidx.appcompat.widget.ContentFrameLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_screen_simple.xml": {
+      "androidx.appcompat.widget.FitWindowsLinearLayout": 1,
+      "androidx.appcompat.widget.ViewStubCompat": 1,
+      "include": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_screen_simple_overlay_action_mode.xml": {
+      "androidx.appcompat.widget.FitWindowsFrameLayout": 1,
+      "include": 1,
+      "androidx.appcompat.widget.ViewStubCompat": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_screen_toolbar.xml": {
+      "androidx.appcompat.widget.ActionBarOverlayLayout": 1,
+      "include": 1,
+      "androidx.appcompat.widget.ActionBarContainer": 1,
+      "androidx.appcompat.widget.Toolbar": 1,
+      "androidx.appcompat.widget.ActionBarContextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_search_dropdown_item_icons_2line.xml": {
+      "RelativeLayout": 1,
+      "ImageView": 3,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_search_view.xml": {
+      "LinearLayout": 4,
+      "TextView": 1,
+      "ImageView": 5,
+      "view": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_select_dialog_material.xml": {
+      "view": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\abc_tooltip.xml": {
+      "LinearLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\accessibility_node_provider.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "view": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\accessibility_service.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "ImageButton": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\action_bar_display_options.xml": {
+      "LinearLayout": 1,
+      "Button": 7
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\action_bar_display_options_custom.xml": {
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\action_bar_settings_action_provider.xml": {
+      "LinearLayout": 1,
+      "ImageButton": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\action_bar_tabs.xml": {
+      "LinearLayout": 2,
+      "FrameLayout": 1,
+      "Button": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\action_bar_tab_content.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\activity_animation.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 6,
+      "requestFocus": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\activity_finish_affinity.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 2,
+      "requestFocus": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\activity_recreate.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\alarm_controller.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 3,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\alarm_service.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\alert_dialog.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "Button": 11
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\alert_dialog_text_entry.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "EditText": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animations_main_screen.xml": {
+      "FrameLayout": 1,
+      "ListView": 1,
+      "ImageView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_1.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "EditText": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_2.xml": {
+      "LinearLayout": 1,
+      "ViewFlipper": 1,
+      "TextView": 5,
+      "Spinner": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_3.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Spinner": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_cloning.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_custom_evaluator.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_loading.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_multi_property.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_reversing.xml": {
+      "LinearLayout": 2,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animation_seeking.xml": {
+      "LinearLayout": 2,
+      "Button": 1,
+      "SeekBar": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animator_custom_evaluator.xml": {
+      "LinearLayout": 2,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\animator_events.xml": {
+      "LinearLayout": 4,
+      "Button": 3,
+      "CheckBox": 1,
+      "TextView": 10
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\appwidget_configure.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "EditText": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\appwidget_provider.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\autocomplete_1.xml": {
+      "LinearLayout": 2,
+      "TextView": 2,
+      "AutoCompleteTextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\autocomplete_2.xml": {
+      "LinearLayout": 2,
+      "Button": 1,
+      "TextView": 1,
+      "AutoCompleteTextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\autocomplete_3.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 3,
+      "Button": 21,
+      "TextView": 2,
+      "AutoCompleteTextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\autocomplete_4.xml": {
+      "LinearLayout": 2,
+      "TextView": 3,
+      "AutoCompleteTextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\autocomplete_5.xml": {
+      "LinearLayout": 2,
+      "TextView": 2,
+      "AutoCompleteTextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\autocomplete_6.xml": {
+      "LinearLayout": 2,
+      "TextView": 2,
+      "MultiAutoCompleteTextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_1.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_2.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_3.xml": {
+      "LinearLayout": 2,
+      "TextView": 3,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_4.xml": {
+      "LinearLayout": 1,
+      "TextView": 4,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_6.xml": {
+      "RelativeLayout": 1,
+      "EditText": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_7.xml": {
+      "RelativeLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_nested_1.xml": {
+      "LinearLayout": 3,
+      "TextView": 4,
+      "ImageView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_nested_2.xml": {
+      "LinearLayout": 3,
+      "TextView": 4,
+      "ImageView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\baseline_nested_3.xml": {
+      "LinearLayout": 4,
+      "TextView": 4,
+      "ImageView": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\bouncing_balls.xml": {
+      "LinearLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\buttons_1.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "Button": 2,
+      "ToggleButton": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\chronometer.xml": {
+      "LinearLayout": 1,
+      "Chronometer": 1,
+      "Button": 5,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\clipboard.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 7,
+      "Button": 5,
+      "TextView": 8,
+      "Spinner": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\contacts_filter.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\content_browser.xml": {
+      "FrameLayout": 2,
+      "view": 1,
+      "TextView": 1,
+      "SeekBar": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\controls_1.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 3,
+      "Button": 2,
+      "EditText": 2,
+      "CheckBox": 3,
+      "RadioGroup": 1,
+      "RadioButton": 2,
+      "ToggleButton": 2,
+      "Spinner": 1,
+      "TextView": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\custom_dialog_activity.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\custom_picker_1.xml": {
+      "LinearLayout": 1,
+      "NumberPicker": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\custom_title.xml": {
+      "LinearLayout": 3,
+      "EditText": 2,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\custom_title_1.xml": {
+      "RelativeLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\custom_view_1.xml": {
+      "LinearLayout": 1,
+      "io.appium.android.apis.view.LabelView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\custom_view_accessibility.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "view": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\date_widgets_example_1.xml": {
+      "LinearLayout": 2,
+      "TextView": 1,
+      "Button": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\date_widgets_example_2.xml": {
+      "LinearLayout": 1,
+      "TimePicker": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\density_image_views.xml": {
+      "LinearLayout": 1,
+      "ImageView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\density_styled_image_views.xml": {
+      "LinearLayout": 1,
+      "ImageView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\dialog_activity.xml": {
+      "LinearLayout": 3,
+      "TextView": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\drag_layout.xml": {
+      "RelativeLayout": 1,
+      "TextView": 3,
+      "io.appium.android.apis.view.DraggableDot": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\external_storage.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\external_storage_item.xml": {
+      "LinearLayout": 2,
+      "TextView": 2,
+      "View": 3,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\focus_1.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "ListView": 1,
+      "WebView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\focus_2.xml": {
+      "LinearLayout": 1,
+      "Button": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\focus_3.xml": {
+      "RelativeLayout": 1,
+      "Button": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\focus_5.xml": {
+      "LinearLayout": 2,
+      "Button": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\foreground_dispatch.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\foreground_service_controller.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 3,
+      "requestFocus": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\forwarding.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\forward_target.xml": {
+      "LinearLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_arguments.xml": {
+      "LinearLayout": 2,
+      "TextView": 1,
+      "fragment": 1,
+      "FrameLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_arguments_fragment.xml": {
+      "LinearLayout": 2,
+      "TextView": 1,
+      "FrameLayout": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_context_menu.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_dialog.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_dialog_or_activity.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 1,
+      "requestFocus": 1,
+      "View": 1,
+      "FrameLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_hide_show.xml": {
+      "LinearLayout": 3,
+      "TextView": 1,
+      "Button": 2,
+      "fragment": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_layout.xml": {
+      "FrameLayout": 1,
+      "fragment": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_menu.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "CheckBox": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_retain_instance.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "ProgressBar": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_stack.xml": {
+      "LinearLayout": 2,
+      "FrameLayout": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\fragment_tabs_fragment.xml": {
+      "TabHost": 1,
+      "LinearLayout": 1,
+      "TabWidget": 1,
+      "FrameLayout": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\gallery_1.xml": {
+      "LinearLayout": 1,
+      "Gallery": 1,
+      "EditText": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\gallery_2.xml": {
+      "LinearLayout": 1,
+      "Button": 1,
+      "Gallery": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\game_controller_input.xml": {
+      "LinearLayout": 2,
+      "TextView": 1,
+      "ListView": 1,
+      "io.appium.android.apis.view.GameView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\game_controller_input_heading.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\game_controller_input_text_column.xml": {
+      "LinearLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\google_login.xml": {
+      "LinearLayout": 1,
+      "Button": 3,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\grid_1.xml": {
+      "GridView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\grid_2.xml": {
+      "GridView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\grid_layout_1.xml": {
+      "GridLayout": 1,
+      "TextView": 1,
+      "EditText": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\grid_layout_2.xml": {
+      "GridLayout": 1,
+      "TextView": 4,
+      "EditText": 2,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\hello_world.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\horizontal_scroll_view1.xml": {
+      "HorizontalScrollView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\hover.xml": {
+      "LinearLayout": 1,
+      "TextView": 3,
+      "CheckBox": 1,
+      "io.appium.android.apis.view.HoverInterceptorView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\image_button_1.xml": {
+      "LinearLayout": 1,
+      "ImageButton": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\image_switcher_1.xml": {
+      "RelativeLayout": 1,
+      "ImageSwitcher": 1,
+      "Gallery": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\image_view_1.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 8,
+      "ImageView": 8
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\incoming_message.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\incoming_message_info.xml": {
+      "LinearLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\incoming_message_interstitial.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\incoming_message_panel.xml": {
+      "FrameLayout": 1,
+      "LinearLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\incoming_message_view.xml": {
+      "LinearLayout": 3,
+      "TextView": 4,
+      "ImageView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\install_apk.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\intents.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\intent_activity_flags.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\isolated_service_controller.xml": {
+      "LinearLayout": 5,
+      "TextView": 3,
+      "Button": 4,
+      "requestFocus": 2,
+      "CheckBox": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\key_event_text.xml": {
+      "LinearLayout": 1,
+      "io.appium.android.apis.text.LogTextBox": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\labeled_text_edit.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "EditText": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\launcher_shortcuts.xml": {
+      "LinearLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animations.xml": {
+      "LinearLayout": 4,
+      "Button": 1,
+      "CheckBox": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animations_by_default.xml": {
+      "LinearLayout": 1,
+      "Button": 1,
+      "GridLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animations_hideshow.xml": {
+      "LinearLayout": 3,
+      "Button": 1,
+      "CheckBox": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animation_1.xml": {
+      "GridView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animation_3.xml": {
+      "ListView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animation_4.xml": {
+      "GridView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animation_5.xml": {
+      "GridView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animation_6.xml": {
+      "GridView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\layout_animation_7.xml": {
+      "TableLayout": 1,
+      "TableRow": 4,
+      "TextView": 4,
+      "EditText": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_1.xml": {
+      "LinearLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_10.xml": {
+      "LinearLayout": 3,
+      "TextView": 2,
+      "EditText": 2,
+      "ImageButton": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_2.xml": {
+      "LinearLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_3.xml": {
+      "LinearLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_4.xml": {
+      "LinearLayout": 1,
+      "TextView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_5.xml": {
+      "LinearLayout": 2,
+      "TextView": 1,
+      "EditText": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_6.xml": {
+      "LinearLayout": 1,
+      "TextView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_7.xml": {
+      "LinearLayout": 1,
+      "TextView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_8.xml": {
+      "FrameLayout": 1,
+      "LinearLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\linear_layout_9.xml": {
+      "LinearLayout": 1,
+      "ListView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\link.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_12.xml": {
+      "LinearLayout": 1,
+      "ListView": 1,
+      "EditText": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_13.xml": {
+      "LinearLayout": 1,
+      "ListView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_7.xml": {
+      "LinearLayout": 1,
+      "ListView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_8.xml": {
+      "LinearLayout": 2,
+      "Button": 2,
+      "FrameLayout": 1,
+      "ListView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_item_checkbox.xml": {
+      "CheckBox": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_item_icon_text.xml": {
+      "LinearLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\list_position.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\local_sample.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\local_service_binding.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\local_service_controller.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\log_text_box_1.xml": {
+      "LinearLayout": 1,
+      "Button": 2,
+      "io.appium.android.apis.text.LogTextBox": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\mapview.xml": {
+      "LinearLayout": 1,
+      "com.google.android.maps.MapView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\marquee.xml": {
+      "LinearLayout": 1,
+      "Button": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\mediaplayer_1.xml": {
+      "LinearLayout": 1,
+      "Button": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\mediaplayer_2.xml": {
+      "LinearLayout": 1,
+      "SurfaceView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\messenger_service_binding.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\morse_code.xml": {
+      "LinearLayout": 1,
+      "EditText": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notification_action.xml": {
+      "LinearLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notification_action_tombstone.xml": {
+      "LinearLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notification_template_custom_big.xml": {
+      "FrameLayout": 3,
+      "ImageView": 3,
+      "LinearLayout": 4,
+      "ViewStub": 2,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notification_template_icon_group.xml": {
+      "ImageView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notification_template_part_chronometer.xml": {
+      "Chronometer": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notification_template_part_time.xml": {
+      "DateTimeView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notifying_controller.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\notify_with_text.xml": {
+      "LinearLayout": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\overscan.xml": {
+      "FrameLayout": 2,
+      "view": 1,
+      "LinearLayout": 7,
+      "TextView": 4,
+      "CheckBox": 10
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\pick_contact.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 4,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\popup_menu_1.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\preference_widget_mypreference.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\presentation_activity.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "CheckBox": 1,
+      "ListView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\presentation_content.xml": {
+      "FrameLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\presentation_list_item.xml": {
+      "RelativeLayout": 1,
+      "CheckBox": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\presentation_with_media_router_activity.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "android.opengl.GLSurfaceView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\presentation_with_media_router_content.xml": {
+      "android.opengl.GLSurfaceView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\progressbar_1.xml": {
+      "LinearLayout": 3,
+      "ProgressBar": 1,
+      "TextView": 2,
+      "Button": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\progressbar_2.xml": {
+      "LinearLayout": 1,
+      "ProgressBar": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\progressbar_3.xml": {
+      "LinearLayout": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\progressbar_4.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\quick_contacts.xml": {
+      "RelativeLayout": 1,
+      "QuickContactBadge": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\radio_group_1.xml": {
+      "LinearLayout": 1,
+      "RadioGroup": 1,
+      "RadioButton": 4,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\ratingbar_1.xml": {
+      "LinearLayout": 2,
+      "RatingBar": 4,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\read_asset.xml": {
+      "LinearLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\receive_result.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\redirect_enter.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\redirect_getter.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "EditText": 1,
+      "requestFocus": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\redirect_main.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\relative_layout_1.xml": {
+      "RelativeLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\relative_layout_2.xml": {
+      "RelativeLayout": 1,
+      "TextView": 1,
+      "EditText": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\remote_binding_options.xml": {
+      "LinearLayout": 2,
+      "TextView": 2,
+      "ScrollView": 1,
+      "Button": 8,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\remote_service_binding.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Button": 3,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\remote_service_controller.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\reorder_four.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\reorder_on_launch.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\reorder_three.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\reorder_two.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources.xml": {
+      "LinearLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_height.xml": {
+      "merge": 1,
+      "LinearLayout": 1,
+      "FrameLayout": 2,
+      "include": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_layout_reference.xml": {
+      "LinearLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_layout_reference_tablet.xml": {
+      "LinearLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_smallest_width.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "FrameLayout": 1,
+      "include": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_smallest_width_inner.xml": {
+      "merge": 1,
+      "LinearLayout": 1,
+      "FrameLayout": 2,
+      "include": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_smallest_width_row.xml": {
+      "merge": 1,
+      "LinearLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_width.xml": {
+      "merge": 1,
+      "LinearLayout": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\resources_width_and_height.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "FrameLayout": 1,
+      "include": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\rotating_list.xml": {
+      "LinearLayout": 1,
+      "Button": 1,
+      "ListView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\rotating_view.xml": {
+      "LinearLayout": 4,
+      "TextView": 7,
+      "SeekBar": 7,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\save_restore_state.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 3,
+      "EditText": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\screen_orientation.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Spinner": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\scrollbar1.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 35
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\scrollbar2.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 35
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\scrollbar3.xml": {
+      "LinearLayout": 4,
+      "ScrollView": 5,
+      "TextView": 14
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\scroll_view_1.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 6,
+      "Button": 6
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\scroll_view_2.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\searchview_actionbar.xml": {
+      "LinearLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\searchview_filter.xml": {
+      "LinearLayout": 1,
+      "SearchView": 1,
+      "ListView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\search_invoke.xml": {
+      "LinearLayout": 5,
+      "TextView": 5,
+      "Button": 1,
+      "Spinner": 1,
+      "EditText": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\search_query_results.xml": {
+      "LinearLayout": 4,
+      "TextView": 7
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\search_view.xml": {
+      "SearchView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\secure_dialog_activity.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\secure_surface_view_activity.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "android.opengl.GLSurfaceView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\secure_view.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 9,
+      "Button": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\secure_view_overlay.xml": {
+      "io.appium.android.apis.view.SecureViewOverlay": 1,
+      "TextView": 1,
+      "Button": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\secure_window_activity.xml": {
+      "LinearLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\seekbar_1.xml": {
+      "LinearLayout": 1,
+      "SeekBar": 1,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\select_dialog.xml": {
+      "LinearLayout": 1,
+      "Button": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\select_dialog_item_material.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\select_dialog_multichoice_material.xml": {
+      "CheckedTextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\select_dialog_singlechoice_material.xml": {
+      "CheckedTextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\send_result.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 2,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\service_start_arguments_controller.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "Button": 5,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\shape_drawable_1.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "ImageView": 9
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\simple_list_item_checkable_1.xml": {
+      "io.appium.android.apis.view.CheckableFrameLayout": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\sms_demo.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextView": 4,
+      "CheckBox": 1,
+      "TableLayout": 1,
+      "TableRow": 4,
+      "EditText": 2,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\soft_input_modes.xml": {
+      "LinearLayout": 2,
+      "TextView": 3,
+      "Spinner": 1,
+      "EditText": 1,
+      "requestFocus": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\spinner_1.xml": {
+      "LinearLayout": 1,
+      "TextView": 2,
+      "Spinner": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\split_touch_view.xml": {
+      "LinearLayout": 2,
+      "TextView": 1,
+      "ListView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\status_bar_balloon.xml": {
+      "LinearLayout": 1,
+      "ImageView": 1,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\status_bar_notifications.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 5,
+      "TextView": 4,
+      "Button": 13
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\styled_text.xml": {
+      "LinearLayout": 1,
+      "TextView": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\support_simple_spinner_dropdown_item.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\surface_view_overlay.xml": {
+      "LinearLayout": 3,
+      "FrameLayout": 1,
+      "android.opengl.GLSurfaceView": 1,
+      "Button": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\switches.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "Switch": 9,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_1.xml": {
+      "TableLayout": 1,
+      "TableRow": 3,
+      "TextView": 9
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_10.xml": {
+      "TableLayout": 1,
+      "TableRow": 3,
+      "TextView": 2,
+      "EditText": 2,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_11.xml": {
+      "TableLayout": 1,
+      "TableRow": 5,
+      "TextView": 10,
+      "View": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_12.xml": {
+      "TableLayout": 1,
+      "TableRow": 5,
+      "TextView": 11
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_2.xml": {
+      "TableLayout": 1,
+      "TableRow": 3,
+      "Button": 3,
+      "TextView": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_3.xml": {
+      "TableLayout": 1,
+      "TableRow": 3,
+      "TextView": 10
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_4.xml": {
+      "TableLayout": 1,
+      "TableRow": 2,
+      "TextView": 4
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_5.xml": {
+      "TableLayout": 1,
+      "TableRow": 6,
+      "TextView": 10,
+      "View": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_6.xml": {
+      "TableLayout": 1,
+      "TableRow": 6,
+      "TextView": 12,
+      "View": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_7.xml": {
+      "LinearLayout": 2,
+      "TableLayout": 1,
+      "TableRow": 5,
+      "TextView": 11,
+      "View": 2,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_8.xml": {
+      "LinearLayout": 1,
+      "TableLayout": 1,
+      "TableRow": 5,
+      "TextView": 11,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\table_layout_9.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TableLayout": 1,
+      "TableRow": 6,
+      "TextView": 11,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\tabs1.xml": {
+      "FrameLayout": 1,
+      "TextView": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\tabs_right_gravity.xml": {
+      "TabHost": 1,
+      "LinearLayout": 1,
+      "TabWidget": 1,
+      "FrameLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\tabs_scroll.xml": {
+      "TabHost": 1,
+      "LinearLayout": 1,
+      "HorizontalScrollView": 1,
+      "TabWidget": 1,
+      "FrameLayout": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\tasklist_main.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "io.appium.android.apis.accessibility.TaskListView": 1,
+      "ImageButton": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\tasklist_row.xml": {
+      "LinearLayout": 1,
+      "TextView": 1,
+      "CheckBox": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\textclock.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "TextClock": 5
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\text_fields.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 7,
+      "EditText": 5,
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\text_switcher_1.xml": {
+      "LinearLayout": 1,
+      "Button": 1,
+      "TextSwitcher": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\text_to_speech.xml": {
+      "LinearLayout": 1,
+      "Button": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\translucent_background.xml": {
+      "TextView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\videoview.xml": {
+      "LinearLayout": 1,
+      "VideoView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\video_player.xml": {
+      "FrameLayout": 2,
+      "view": 1,
+      "TextView": 1,
+      "Button": 1,
+      "SeekBar": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\visibility_1.xml": {
+      "LinearLayout": 3,
+      "TextView": 3,
+      "Button": 3
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\voice_recognition.xml": {
+      "LinearLayout": 1,
+      "TextView": 4,
+      "Button": 1,
+      "Spinner": 1,
+      "ListView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\wallpaper_2.xml": {
+      "FrameLayout": 1,
+      "ImageView": 1,
+      "LinearLayout": 1,
+      "Button": 2
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\webview_1.xml": {
+      "WebView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\webview_2.xml": {
+      "WebView": 1
+    },
+    "../Artefakt02/decompiled_apk/res/layout\\webview_3.xml": {
+      "ScrollView": 1,
+      "LinearLayout": 1,
+      "Button": 1
+    }
+  }
+}
