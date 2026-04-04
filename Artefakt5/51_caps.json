@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "automationName": "UiAutomator2",
+  "appPackage": "io.appium.android.apis",
+  "appActivity": "io.appium.android.apis.ApiDemos",
+  "deviceName": "emulator-5554",
+  "noReset": true
+}

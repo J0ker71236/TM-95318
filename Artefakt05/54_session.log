@@ -1,0 +1,19 @@
+>>> ZADANIE 5.4: INTEGRACJA ARTEFAKTÓW (STABLE BUILD) <<<
+=== ARTEFAKT 5.4: SESSION READINESS REPORT ===
+Target App   : io.appium.android.apis
+Main Activity : io.appium.android.apis.ApiDemos
+Device       : emulator-5554
+UI Elements  : 459 loaded
+Status       : READY TO CONNECT
+
+Sample selectors:
+- ADD -> add
+- TEXT -> text
+- LOCALVIDEO -> localvideo
+- STREAMVIDEO -> streamvideo
+- LOCALAUDIO -> localaudio
+- RESOURCESAUDIO -> resourcesaudio
+- CONTENT -> content
+- TITLE -> title
+- SEEKBAR -> seekBar
+- DESCRIPTION -> description
