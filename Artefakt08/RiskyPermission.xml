@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<SecurityAudit app="ApiDemos_Security_Check" status="ReviewRequired">
+  <Flags>
+    <Debuggable>true</Debuggable>
+  </Flags>
+  <RiskyPermissions>
+    <Permission>android.permission.READ_CONTACTS</Permission>
+    <Permission>android.permission.INTERNET</Permission>
+    <Permission>android.permission.WRITE_EXTERNAL_STORAGE</Permission>
+    <Permission>android.permission.RECORD_AUDIO</Permission>
+    <Permission>android.permission.CAMERA</Permission>
+  </RiskyPermissions>
+</SecurityAudit>

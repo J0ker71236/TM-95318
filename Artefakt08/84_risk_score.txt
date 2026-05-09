@@ -1,0 +1,7 @@
+FINAL SECURITY SCORE: 0/100
+------------------------------
+LISTA KAR PUNKTOWYCH:
+[-30] Flaga Debuggable jest AKTYWNA (High Risk)
+[-20] Poważna luka w com.google.android.gms (High)
+[-10] Średnia luka w com.squareup.okhttp (Medium)
+[-40] Krytyczna luka w org.apache.commons (Critical)
